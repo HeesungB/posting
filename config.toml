@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://heesungb.github.io/blog/"
 languageCode = "en-us"
 title = "Heesung's Blog"
 theme = "mixedpaper"
@@ -21,28 +21,23 @@ showReadMore = false
 mainSections = [
 	"posts",
 ]
+
 # paginate of archives, tags and categories
 listPaginate = 20
 postLicense = ""
 
-# Menu links along the sidebar navigation.
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 1 # Weight is an integer used to sort the menu items. The sorting goes from smallest to largest numbers. If weight is not defined for each menu entry, Hugo will sort the entries alphabetically.
 
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
-url = "/tags/"
+url = "tags/"
 weight = 2
 
 [[menu.main]]
 name = "Posts"
 identifier = "posts"
-url = "/posts/"
-weight = 3
+url = "posts/"
+weight = 1
 
 
 [params.comment]
